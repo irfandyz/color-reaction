@@ -177,15 +177,15 @@
                     <div class="space"></div>
                     <div class="d-none" id="second">
                         <div class="text-center">
-                            <h1 id="result"></h1>
+                            <h1 class="text-white" id="result"></h1>
                             <button onclick="next()" class="btn btn-primary">Next <i
                                     class="fa-solid fa-forward"></i></button>
                         </div>
                     </div>
                     <div class="space"></div>
-                    <div class="box" accesskey="e" id="box-2">
+                    <div class="box" accesskey="w" id="box-2">
                         <div class="d-flex justify-content-center" id="sign" style="margin-top: 75px;">
-                            <h1 class="text-white">ALT + E</h1>
+                            <h1 class="text-white">ALT + W</h1>
                         </div>
                     </div>
                 </div>
