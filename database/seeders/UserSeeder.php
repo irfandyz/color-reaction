@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use App\Models\User;
 
 class UserSeeder extends Seeder
 {
@@ -24,5 +25,8 @@ class UserSeeder extends Seeder
                 'password'=>bcrypt('admin2'),
             ],
         ];
+        foreach ($data as $value) {
+            User::create($value);
+        }
     }
 }
