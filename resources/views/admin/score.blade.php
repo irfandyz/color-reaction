@@ -27,7 +27,7 @@
                 </tr>
                 <tr>
                     <td>Rata - rata</td>
-                    <td>: {{$averageFinal['average']}}ms ({{ $averageFinal['index'] }})</td>
+                    <td>: {{$averageFinal['average']==null?0:$averageFinal['average']}}ms {{ "(".$averageFinal['index'].")" }}</td>
                 </tr>
                 <tr>
                     <td>Total Permainan</td>
