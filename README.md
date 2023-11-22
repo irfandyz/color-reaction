@@ -7,3 +7,4 @@
 - Set your database credentials in your `.env` file
 - run `php artisan migrate`
 - run `php artisan db:seed`
+- run `php artisan key:generate`
