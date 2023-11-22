@@ -17,11 +17,13 @@ class UserSeeder extends Seeder
             [
                 'username'=>'admin',
                 'name'=>'admin',
+                'role'=>'admin',
                 'password'=>bcrypt('admin'),
             ],
             [
                 'username'=>'admin2',
                 'name'=>'admin2',
+                'role'=>'admin',
                 'password'=>bcrypt('admin2'),
             ],
         ];
