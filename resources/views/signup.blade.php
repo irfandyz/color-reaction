@@ -82,7 +82,7 @@
                     <a class="text-warning fw-bold text-decoration-none" style="font-size: 12px" href="#"
                         id="hidden-pass"><span id="show">Show</span> Password <i id="eye" class="fas fa-eye"></i></a>
                 </div>
-                <button type="submit" class="btn color-1 w-100 mt-4 fw-bold">Daftar</button>
+                <button type="submit" class="btn btn-primary color-1 w-100 mt-4 fw-bold">Daftar</button>
             </form>
             <div class="separator mt-3 text-white"><small>ATAU</small></div>
             <p class="text-center mt-2" style="font-size:18px">
