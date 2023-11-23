@@ -12,7 +12,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
-            /* background: url("{{ asset('assets/bg.jpg') }}"); */
             background: {{\App\Models\Setting::first()->background}};
         }
 
@@ -149,14 +148,9 @@
 
                     if (playResult !== undefined) {
                         playResult.then(_ => {
-                                // Automatic playback started!
-                                // Show playing UI.
-
                                 $(previewElement).show();
                             })
                             .catch(error => {
-                                // Auto-play was prevented
-                                // Show paused UI.
 
                             });
                     }

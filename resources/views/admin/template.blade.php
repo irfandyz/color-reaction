@@ -59,8 +59,8 @@
         <div class="row">
             <div class="col-sm-3 p-2">
                 <div class="panel-body">
-                    @foreach ($user as $item)
                     <ul class="list-group">
+                    @foreach ($user as $item)
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
                                 <div>
@@ -73,8 +73,8 @@
                                 </div>
                             </div>
                         </li>
+                        @endforeach
                     </ul>
-                    @endforeach
                 </div>
             </div>
             <div class="col-sm-9 box-content p-2">
