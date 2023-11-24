@@ -15,7 +15,7 @@
     <style>
         body{
             color: white;
-            background: {{\App\Models\Setting::first()->background}};
+            background: {{\App\Models\Setting::first()->background??"#0352fc"}};
             /* background: #464646; */
         }
         * {
