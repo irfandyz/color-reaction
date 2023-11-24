@@ -1,6 +1,6 @@
 <p class="mt-3">
     <h3 class="fw-bold">
-        Anda akan diminta untuk melakukan percobaan yang disebut dengan Realtime Respon Analyzer. Adapun hal yang harus anda lakukan sebagai brikut:
+        Anda akan diminta untuk melakukan percobaan yang disebut dengan Realtime Respon Analyzer. Adapun hal yang harus anda lakukan sebagai berikut:
     </h3>
     <br>
     <ol>
