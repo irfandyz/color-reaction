@@ -14,7 +14,7 @@
             Jika anda melakukan kesalahan dalam menekan tombol maka akan muncul peringatan hingga tombol yang dipencet sesuai dengan warnanya.
         </li>
         <li class="h5 fw-bold">
-             Lakukan hingga percobaan selesai.
+             Lakukan hingga percobaan selesai.
         </li>
     </ol>
     

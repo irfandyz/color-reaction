@@ -27,7 +27,7 @@
                 </tr>
                 <tr>
                     <td>Rata - rata</td>
-                    <td>: {{$averageFinal['average']==null?0:$averageFinal['average']}}ms {{ "(".$averageFinal['index'].")" }}</td>
+                    <td>: {{$averageFinal['average']==null?0:$averageFinal['average']}}ms</td>
                 </tr>
                 <tr>
                     <td>Total Permainan</td>
@@ -79,7 +79,7 @@
             <ul class="list-group box-score">
                 @foreach ($result as $data)
                 <li class="list-group-item">
-                    <p>{{ $loop->iteration }}. Average : {{ $data->average }}ms <br>({{ $data->indexAverage }}) <br><span class="text-success">{{ date('d-m-Y H:i',strtotime($data->created_at)) }}</span></p>
+                    <p>{{ $loop->iteration }}. Average : {{ $data->average }}ms <br><span class="text-success">{{ date('d-m-Y H:i',strtotime($data->created_at)) }}</span></p>
                     <ul class="mb-3">
                         @foreach ($data->score as $key)
                         <li>Attempt {{ $loop->iteration }} : {{ intval($key) }}ms </li>

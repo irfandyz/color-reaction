@@ -29,10 +29,10 @@ class AdminController extends Controller
                 array_push($average,floatval($score->average));
             }
             $averageFinal['average'] =null;
-            $averageFinal['index'] =null;
+            // $averageFinal['index'] =null;
             if ($data->count() > 0) {
                 $averageFinal['average'] = number_format((float)array_sum($average)/count($average), 2, '.', '');
-                $averageFinal['index'] = $this->indexScore($averageFinal['average']);
+                // $averageFinal['index'] = $this->indexScore($averageFinal['average']);
             }
             return view('admin.score',compact('result','user','userSelect','count','average','averageFinal'));
         }
